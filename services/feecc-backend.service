@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/feecc000001/robonomics-qa/robonomics-qa-backend/venv/bin/python app.py
+ExecStart=/home/feecc000001/feecc_qa_geoscan/Backend/venv/bin/python app.py
 User=feecc000001
 Restart=on-failure
 
