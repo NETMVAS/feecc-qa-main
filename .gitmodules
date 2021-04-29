@@ -1,0 +1,9 @@
+[submodule "EventToInternet"]
+	path = EventToInternet
+	url = https://github.com/arseniiarsenii/robonomics_qa_geoscan.git
+[submodule "Agent"]
+	path = Agent
+	url = https://github.com/arseniiarsenii/robonomics_qa_geoscan.git
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/arseniiarsenii/robonomics-qa-backend.git

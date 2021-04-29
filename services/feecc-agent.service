@@ -1,0 +1,12 @@
+[Unit]
+Description=Feecc QA system agent
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/feecc000001/robonomics-qa/robonomics_qa_geoscan/venv/bin/python app.py
+User=feecc000001
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

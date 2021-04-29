@@ -1,0 +1,12 @@
+[Unit]
+Description=Robonomics node
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=simple
+ExecStart=/bin/robonomics
+User=feecc000001
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
