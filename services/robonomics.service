@@ -4,7 +4,7 @@ After=syslog.target network.target remote-fs.target nss-lookup.target
 
 [Service]
 Type=simple
-ExecStart=/bin/robonomics
+ExecStart=/usr/bin/robonomics --dev
 User=feecc000001
 Restart=always
 

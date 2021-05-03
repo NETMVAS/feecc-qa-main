@@ -4,7 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/feecc000001/feecc_qa_geoscan/Agent/venv/bin/python app.py
+WorkingDirectory=/home/feecc000001/feecc_qa_geoscan/Agent
+ExecStart=./venv/bin/python app.py
 User=feecc000001
 Restart=on-failure
 
