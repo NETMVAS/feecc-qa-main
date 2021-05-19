@@ -8,5 +8,4 @@
 	branch = main
 [submodule "EventToInternet"]
 	path = EventToInternet
-	url = https://github.com/arseniiarsenii/robonomics-qa-reader-daemon.git 
-	branch = main
+	url = https://github.com/arseniiarsenii/robonomics-qa-reader-daemon
