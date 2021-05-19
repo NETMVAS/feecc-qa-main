@@ -1,6 +1,6 @@
 [submodule "EventToInternet"]
 	path = EventToInternet
-	url = https://github.com/arseniiarsenii/robonomics_qa_geoscan.git
+	url = https://github.com/arseniiarsenii/robonomics-qa-reader-daemon.git 
 [submodule "Agent"]
 	path = Agent
 	url = https://github.com/arseniiarsenii/robonomics_qa_geoscan.git
