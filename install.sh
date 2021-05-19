@@ -21,6 +21,7 @@ sudo cp robonomics /bin/
 # Install AGENT
 sudo apt install -y vlc ffmpeg
 cd Agent
+git fetch && git merge
 python3 -m venv ./venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -29,6 +30,7 @@ cd ..
 
 # Install BACKEND
 cd Backend
+git fetch && git merge
 python3 -m venv ./venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -41,6 +43,11 @@ sudo systemctl enable feecc-agent.service
 sudo systemctl enable feecc-backend.service
 sudo systemctl enable ipfs.service
 sudo systemctl enable robonomics.service
+
+# Update RFID listener
+cd EventToInternet
+git fetch && git merge
+cd ..
 
 # Install RFID listener daemon
 sudo apt install -y python3-dev gcc
