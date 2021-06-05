@@ -1,9 +1,0 @@
-[submodule "Agent"]
-	path = Agent
-	url = https://github.com/NETMVAS/feecc-agent-morsvyaz.git
-[submodule "Backend"]
-	path = Backend
-	url = https://github.com/NETMVAS/feecc-backend.git
-[submodule "EventToInternet"]
-	path = EventToInternet
-	url = https://github.com/NETMVAS/feecc-hid-reader-daemon.git
